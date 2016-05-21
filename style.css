@@ -15,8 +15,10 @@ body {
 
 .header {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
+/*
+    padding-top: 10px;
+    padding-bottom: 30px;
+*/
 }
 
 .table {
@@ -28,7 +30,8 @@ body {
 }
 
 .monitor {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .tv {
@@ -68,7 +71,6 @@ body {
 	border: 0;
     padding: 10px;
     width: 100px;
-    margin-top: 10px;
 }
 
 .remote-control {
@@ -86,7 +88,7 @@ body {
 }
 
 @media screen and (min-width: 40em) {
-
+    
     .table {
         margin-top: 280px;
         height: 20px;
@@ -154,32 +156,33 @@ body {
 @media screen and (min-width: 64em) {
 
     .table {
-        margin-top: 500px;
+        margin-top: 440px;
         height: 25px;
     }
     
     .monitor {
         margin-bottom: 40px;
+        margin-top: 30px;
     }
 
     .tv {
-        width: 600px;
-        height: 450px;
+        width: 530px;
+        height: 400px;
     }
 
     .tv .screen {
-        width: 550px;
-        height: 400px;
-        margin: 25px;
+        width: 490px;
+        height: 360px;
+        margin: 20px;
     }
 
     .tv-part {
         width: 40px;
-        height: 25px;
+        height: 20px;
     }
 
     .tv-part2 {
         width: 150px;
-        height: 25px;
+        height: 20px;
     }
 }
