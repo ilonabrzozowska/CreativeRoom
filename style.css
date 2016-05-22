@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 }
 
-h1, h2, h3, h4, p, table, li, ul, img {
+h1, h2, h3, h4, h5, p, table, li, ul, img {
     margin: 0;
     padding: 0;
 }
@@ -94,6 +94,75 @@ body {
     margin-top: 5px;
 }
 
+.color-screen-buttons {
+	padding-top: 5px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.color-wall-buttons {
+    padding-top: 5px;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.color-screen-button {
+	width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    display: none;
+    border: 1px solid white;
+}
+
+.color-wall-button {
+	width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    display: none;
+    border: 1px solid white;
+}
+
+.screen-text {
+	display: none;
+    font-size: 9px;
+}
+.wall-text {
+	display: none;
+    font-size: 9px;
+}
+
+#blue {
+	background: #73D8FA;
+}
+
+#red {
+	background: #f22e2a;
+}
+
+#yellow {
+	background: #f1eb40;
+}
+
+#green {
+    background: #59f140;
+}
+
+#wallBlue {
+	background: #b5f4ff;
+}
+
+#wallRed {
+	background: #ffb5b5;
+}
+
+#wallYellow {
+	background: #fff5b5;
+}
+
+#wallGreen {
+    background: #caffb5;
+}
+
 .footer {
     margin-top: 10px;
 }
@@ -137,7 +206,7 @@ body {
     
     .screen-buttons {
         width: 200px;
-        padding-top: 20px;
+        padding-top: 15px;
     }
 
     .screen-button {
@@ -145,6 +214,34 @@ body {
         width: 200px;
         font-size: 12px;
         margin-top: 10px;
+    }
+    
+    .color-screen-buttons {
+        width: 120px;
+        padding-top: 10px;
+    }
+
+    .color-wall-buttons {
+        width: 120px;
+        padding-top: 10px;
+    }
+    
+    .color-screen-button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .color-wall-button {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .screen-text {
+	   font-size: 12px;
+    }
+    
+    .wall-text {
+	   font-size: 12px;
     }
 }
 
